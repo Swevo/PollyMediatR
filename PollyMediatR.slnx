@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PollyMediatR/PollyMediatR.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PollyMediatR.Tests/PollyMediatR.Tests.csproj" />
+  </Folder>
+</Solution>
