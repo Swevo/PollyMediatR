@@ -8,11 +8,11 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>PollyMediatR</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Description>Polly v8 resilience pipelines for MediatR — add retry, timeout, circuit-breaker, rate-limiting, hedging, and chaos engineering to any MediatR request handler with a single line of DI registration. Wraps MediatR IPipelineBehavior with a ResiliencePipeline so transient faults, timeouts and overload are handled automatically without touching handler code.</Description>
     <PackageTags>polly;mediatr;resilience;retry;timeout;circuit-breaker;rate-limiting;hedging;fault-tolerance;cqrs;dotnet;aspnetcore;polly-v8;Fault;Exception;Handling;Transient;pipeline-behavior;dependency-injection</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResiliencePipelineBehavior&lt;TRequest,TResponse&gt; wraps any MediatR request in a Polly v8 ResiliencePipeline. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResiliencePipelineBehavior&lt;TRequest,TResponse&gt; wraps any MediatR request in a Polly v8 ResiliencePipeline. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollyMediatR</RepositoryUrl>
@@ -40,8 +40,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
