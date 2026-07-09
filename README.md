@@ -3,6 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/PollyMediatR.svg)](https://www.nuget.org/packages/PollyMediatR)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyMediatR.svg)](https://www.nuget.org/packages/PollyMediatR)
 [![CI](https://github.com/Swevo/PollyMediatR/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyMediatR/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Polly v8 resilience pipelines for MediatR** — add retry, timeout, circuit-breaker, rate-limiting, hedging and chaos engineering to any MediatR request handler with a single line of registration. No changes to handler code required.
 
